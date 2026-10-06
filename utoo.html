@@ -71,6 +71,7 @@ dialog::backdrop{background:rgba(35,28,22,.48);backdrop-filter:blur(3px)}
 
 /* U too v4: じもピー目線 + うどん旅 */
 .top-actions{display:flex;gap:8px}
+.sibling-btn{display:inline-flex;align-items:center;text-decoration:none}
 .jimo-row{margin-top:13px;padding-top:13px;border-top:1px dashed rgba(122,86,56,.22)}
 .jimo-label{font-size:11px;color:var(--muted);margin-bottom:8px;font-weight:700;letter-spacing:.08em}
 .jimo-badge{background:#e9f5f8!important;color:#376b78!important}
@@ -368,7 +369,7 @@ button{touch-action:manipulation}
 .about-foot{font-size:11px;color:var(--muted);text-align:center;margin-top:14px}
 
 </style>
-  <title>U too 最終版 | 今のあなたに、ちょうどいい一杯。</title>
+  <title>U too | 今のあなたに、ちょうどいい一杯。</title>
 </head>
 <body>
   <header class="topbar">
@@ -377,6 +378,7 @@ button{touch-action:manipulation}
       <div class="tagline">今のあなたに、ちょうどいい一杯。</div>
     </div>
     <div class="top-actions">
+      <a id="siblingBtn" class="top-btn sibling-btn" href="utoo-sweets.html" aria-label="スイーツ版（U too Sweets）へ">🍰 スイーツ</a>
       <button id="favTopBtn" class="top-btn" aria-label="お気に入り">お気に入り</button>
       <button id="settingsBtn" class="top-btn" aria-label="お店データ設定">設定</button>
       <button id="aboutBtn" class="top-btn" aria-label="このアプリについて" hidden="">情報</button>
